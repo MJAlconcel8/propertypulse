@@ -1,4 +1,24 @@
 .layout {
   background-color: rebeccapurple;
   height: 100vh;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 1366px) {
+  .layout {
+    background-color: coral;
+  }
+}
+@media (max-width: 1024px) {
+  .layout {
+    background-color: cornflowerblue;
+  }
+}
+@media (max-width: 738px) {
+  .layout {
+    background-color: red;
+  }
 }
