@@ -1,4 +1,5 @@
 import "./homePage.scss";
+import SearchBar from "../../components/searchBar/SearchBar";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
           <p>
           Discover your perfect home with our comprehensive real estate services. Whether you're buying, selling, or renting, we provide expert guidance and personalized support every step of the way. Explore a vast selection of properties to find a place that matches your lifestyle and budget. Let us help you turn your dream into reality.
           </p>
+          <SearchBar/>
           <div className="boxes">
             <div className="box">
               <h1>16+</h1>
