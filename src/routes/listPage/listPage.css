@@ -1,0 +1,19 @@
+.listPage {
+  display: flex;
+  height: 100%;
+}
+.listPage .listContainer {
+  flex: 3;
+}
+.listPage .listContainer .wrapper {
+  height: 100%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow: scroll;
+  padding-bottom: 50px;
+}
+.listPage .mapContainer {
+  flex: 2;
+}
